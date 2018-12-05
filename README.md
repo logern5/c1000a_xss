@@ -1,4 +1,4 @@
-# Persistent XSS in the Actiontec C1000A Website Blocking page
+# Persistent XSS in the Actiontec C1000A router Website Blocking page
 **Vendor**: Actiontec
 
 **Product**: C1000A
