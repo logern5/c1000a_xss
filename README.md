@@ -5,6 +5,7 @@
 
 **Firmware Version**: CAC004-31.30L.95
 
+**CVE**: [CVE-2018-19922](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19922)
 
 ## Verification:
 1. Make an HTTP request to the router where 192.168.0.1 is the router's local IP address, for example with this cURL POC:
